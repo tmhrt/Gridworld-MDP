@@ -44,3 +44,8 @@ For n states, there are n linear equations with n unknowns (the utilities of sta
 Here's the pseudocode for policy iteration. 
 
 <img src="screenshots/policy_iteration.png" width="650">
+
+## Q-Learning
+In q-learning the learned action-value function, Q, directly approximates q* , the optimal action-value function, independent of the policy being followed. The following modified bellman
+
+<img src="screenshots/q-learning.png" width="700">
