@@ -46,6 +46,6 @@ Here's the pseudocode for policy iteration.
 <img src="screenshots/policy_iteration.png" width="650">
 
 ## Q-Learning
-In q-learning the learned action-value function, Q, directly approximates q* , the optimal action-value function, independent of the policy being followed. The following modified bellman
+In q-learning the learned action-value function, Q, directly approximates q* , the optimal action-value function, independent of the policy being followed. Here are modified bellman equation and the epesodical iterative learning algorithm to get the optimal Q unction(from d/t experiences). trhe hyper parameter Alpha defines the learning rate(how fast to adopt new findidngs vs old knowledge) whereas Epsilon dictates the balance between exploration(Epsilon set to 1 initialy) and eploitation(Epsilon close to zero after decaying throught the episode)
 
-<img src="screenshots/q-learning.png" width="700">
+<img src="screenshots/q-learning.png" width="900">
